@@ -35,19 +35,19 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'your.email@example.com',
-      link: 'mailto:your.email@example.com'
+      value: 'alphakyla.bangachon@example.com',
+      link: 'mailto:alphakyla.bangachon@example.com'
     },
     {
       icon: Phone,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      value: '+63 912 345 6789',
+      link: 'tel:+639123456789'
     },
     {
       icon: MapPin,
       title: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Baguio City, Philippines',
       link: null
     }
   ];
@@ -56,19 +56,19 @@ const Contact = () => {
     {
       icon: Github,
       name: 'GitHub',
-      url: 'https://github.com/yourusername',
+      url: 'https://github.com/alphakyla',
       color: 'hover:text-gray-400'
     },
     {
       icon: Linkedin,
       name: 'LinkedIn',
-      url: 'https://linkedin.com/in/yourusername',
+      url: 'https://linkedin.com/in/alphakyla-bangachon',
       color: 'hover:text-blue-400'
     },
     {
       icon: Twitter,
       name: 'Twitter',
-      url: 'https://twitter.com/yourusername',
+      url: 'https://twitter.com/alphakyla',
       color: 'hover:text-blue-400'
     }
   ];

@@ -5,11 +5,11 @@ import { Code, Database, Globe, Smartphone, Zap, Shield } from 'lucide-react';
 const About = () => {
   const skills = [
     { name: 'React', icon: Code, color: 'text-blue-400' },
-    { name: 'Three.js', icon: Globe, color: 'text-green-400' },
-    { name: 'Node.js', icon: Database, color: 'text-yellow-400' },
-    { name: 'Express', icon: Zap, color: 'text-purple-400' },
-    { name: 'Tailwind CSS', icon: Smartphone, color: 'text-cyan-400' },
-    { name: 'TypeScript', icon: Shield, color: 'text-blue-500' },
+    { name: 'JavaScript', icon: Globe, color: 'text-yellow-400' },
+    { name: 'Node.js', icon: Database, color: 'text-green-400' },
+    { name: 'PHP', icon: Zap, color: 'text-purple-400' },
+    { name: 'MySQL', icon: Smartphone, color: 'text-cyan-400' },
+    { name: 'HTML/CSS', icon: Shield, color: 'text-orange-400' },
   ];
 
   const containerVariants = {
@@ -41,8 +41,8 @@ const About = () => {
             About <span className="gradient-text">Me</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-3xl mx-auto">
-            I'm a passionate full-stack developer who loves creating immersive digital experiences. 
-            With expertise in modern web technologies, I bring ideas to life through code.
+            I'm a passionate BSIT Web Technology student who loves creating immersive digital experiences. 
+            Currently interning at the Department of Agriculture, I bring ideas to life through modern web technologies.
           </p>
         </motion.div>
 
@@ -61,28 +61,28 @@ const About = () => {
             
             <p className="text-gray-300 leading-relaxed">
               I specialize in building modern web applications that combine beautiful design with powerful functionality. 
-              My journey in web development started with a curiosity about how things work on the internet, 
+              My journey in web development started as a BSIT Web Technology student at University of the Cordilleras, 
               and it has evolved into a passion for creating seamless user experiences.
             </p>
             
             <p className="text-gray-300 leading-relaxed">
-              With expertise in React, Three.js, and Node.js, I create applications that are not only visually stunning 
-              but also performant and scalable. I believe in writing clean, maintainable code and staying up-to-date 
-              with the latest technologies and best practices.
+              Currently interning at the Department of Agriculture under the Accounting Department as a Developer, 
+              I'm gaining valuable experience in real-world applications. With expertise in modern web technologies, 
+              I create applications that are not only visually stunning but also practical and user-friendly.
             </p>
 
             <div className="flex flex-wrap gap-4 pt-4">
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary-400">3+</div>
-                <div className="text-gray-400 text-sm">Years Experience</div>
+                <div className="text-2xl font-bold text-primary-400">2+</div>
+                <div className="text-gray-400 text-sm">Years Studying</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary-400">50+</div>
+                <div className="text-2xl font-bold text-primary-400">15+</div>
                 <div className="text-gray-400 text-sm">Projects Completed</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary-400">20+</div>
-                <div className="text-gray-400 text-sm">Happy Clients</div>
+                <div className="text-2xl font-bold text-primary-400">1</div>
+                <div className="text-gray-400 text-sm">Current Internship</div>
               </div>
             </div>
           </motion.div>
@@ -124,8 +124,8 @@ const About = () => {
           </h3>
           <div className="flex flex-wrap justify-center gap-3">
             {[
-              'JavaScript', 'TypeScript', 'Python', 'MongoDB', 'PostgreSQL', 
-              'AWS', 'Docker', 'Git', 'REST APIs', 'GraphQL', 'Redux', 'Next.js'
+              'JavaScript', 'PHP', 'MySQL', 'React', 'Node.js', 
+              'HTML5', 'CSS3', 'Git', 'REST APIs', 'Bootstrap', 'Tailwind CSS', 'Express.js'
             ].map((tech, index) => (
               <motion.span
                 key={tech}

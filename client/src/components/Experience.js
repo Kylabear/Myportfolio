@@ -6,44 +6,30 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      company: 'Tech Company',
-      position: 'Senior Full Stack Developer',
-      duration: '2022 - Present',
-      location: 'San Francisco, CA',
-      description: 'Led development of multiple web applications using React and Node.js. Implemented 3D visualizations and interactive features.',
-      technologies: ['React', 'Node.js', 'TypeScript', 'AWS', 'Three.js'],
+      company: 'Department of Agriculture',
+      position: 'Developer Intern',
+      duration: '2024 - Present',
+      location: 'Baguio City, Philippines',
+      description: 'Working under the Accounting Department as a Developer, creating and maintaining web applications for agricultural data management and financial systems.',
+      technologies: ['React', 'Node.js', 'JavaScript', 'MySQL', 'PHP'],
       achievements: [
-        'Reduced application load time by 40% through optimization',
-        'Mentored 3 junior developers',
-        'Implemented CI/CD pipeline improvements'
+        'Developed internal web applications for data management',
+        'Improved system efficiency by 30% through automation',
+        'Collaborated with accounting team for system requirements'
       ]
     },
     {
       id: 2,
-      company: 'Startup Inc',
-      position: 'Frontend Developer',
-      duration: '2020 - 2022',
-      location: 'New York, NY',
-      description: 'Built responsive user interfaces and implemented 3D visualizations. Collaborated with design team to create seamless user experiences.',
-      technologies: ['React', 'Three.js', 'Tailwind CSS', 'JavaScript'],
+      company: 'University of the Cordilleras',
+      position: 'BSIT Web Technology Student',
+      duration: '2022 - Present',
+      location: 'Baguio City, Philippines',
+      description: 'Pursuing Bachelor of Science in Information Technology with specialization in Web Technology. Learning modern web development technologies and best practices.',
+      technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'PHP', 'MySQL'],
       achievements: [
-        'Developed 5+ interactive 3D components',
-        'Improved user engagement by 25%',
-        'Implemented responsive design system'
-      ]
-    },
-    {
-      id: 3,
-      company: 'Digital Agency',
-      position: 'Junior Developer',
-      duration: '2019 - 2020',
-      location: 'Los Angeles, CA',
-      description: 'Started my journey in web development, working on various client projects and learning modern web technologies.',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'React'],
-      achievements: [
-        'Completed 10+ client projects',
-        'Learned modern web development practices',
-        'Contributed to open source projects'
+        'Completed 15+ academic projects',
+        'Maintained excellent academic performance',
+        'Participated in various web development workshops'
       ]
     }
   ];
@@ -156,52 +142,91 @@ const Experience = () => {
           </div>
         </div>
 
-        {/* Education Section */}
-        <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          viewport={{ once: true }}
-          className="mt-20"
-        >
-          <h3 className="text-3xl font-bold text-center mb-12">
-            <span className="gradient-text">Education</span>
-          </h3>
+                 {/* Education Section */}
+         <motion.div
+           initial={{ opacity: 0, y: 50 }}
+           whileInView={{ opacity: 1, y: 0 }}
+           transition={{ duration: 0.8, delay: 0.4 }}
+           viewport={{ once: true }}
+           className="mt-20"
+         >
+           <h3 className="text-3xl font-bold text-center mb-12">
+             <span className="gradient-text">Education</span>
+           </h3>
+           
+           <div className="max-w-4xl mx-auto space-y-8">
+             {/* Current Education */}
+             <motion.div
+               whileHover={{ y: -5 }}
+               className="card"
+             >
+               <div className="flex items-start justify-between mb-4">
+                 <div>
+                   <h4 className="text-xl font-bold text-white mb-1">
+                     Bachelor of Science in Information Technology
+                   </h4>
+                   <div className="flex items-center gap-2 text-primary-400 mb-2">
+                     <Building className="h-4 w-4" />
+                     <span className="font-medium">University of the Cordilleras</span>
+                   </div>
+                 </div>
+               </div>
+               
+               <div className="flex items-center gap-4 mb-4 text-sm text-gray-400">
+                 <div className="flex items-center gap-1">
+                   <Calendar className="h-4 w-4" />
+                   <span>2022 - Present</span>
+                 </div>
+                 <div className="flex items-center gap-1">
+                   <MapPin className="h-4 w-4" />
+                   <span>Baguio City, Philippines</span>
+                 </div>
+               </div>
+               
+               <p className="text-gray-300 leading-relaxed">
+                 Specialization in Web Technology. Currently pursuing degree with focus on modern web development, 
+                 database management, and software engineering principles. Completed various projects in React, 
+                 Node.js, and PHP development.
+               </p>
+             </motion.div>
+
+             {/* Senior High School */}
+             <motion.div
+               whileHover={{ y: -5 }}
+               className="card"
+             >
+               <div className="flex items-start justify-between mb-4">
+                 <div>
+                   <h4 className="text-xl font-bold text-white mb-1">
+                     Senior High School - Accountancy and Business Management (ABM)
+                   </h4>
+                   <div className="flex items-center gap-2 text-primary-400 mb-2">
+                     <Building className="h-4 w-4" />
+                     <span className="font-medium">High School Name</span>
+                   </div>
+                 </div>
+               </div>
+               
+               <div className="flex items-center gap-4 mb-4 text-sm text-gray-400">
+                 <div className="flex items-center gap-1">
+                   <Calendar className="h-4 w-4" />
+                   <span>2020 - 2022</span>
+                 </div>
+                 <div className="flex items-center gap-1">
+                   <MapPin className="h-4 w-4" />
+                   <span>Baguio City, Philippines</span>
+                 </div>
+               </div>
+               
+               <p className="text-gray-300 leading-relaxed">
+                 Completed Senior High School with Accountancy and Business Management (ABM) strand. 
+                 This background provides a strong foundation in business principles, financial management, 
+                 and analytical thinking that complements my technical web development skills.
+               </p>
+             </motion.div>
+           </div>
           
-          <div className="max-w-4xl mx-auto">
-            <motion.div
-              whileHover={{ y: -5 }}
-              className="card"
-            >
-              <div className="flex items-start justify-between mb-4">
-                <div>
-                  <h4 className="text-xl font-bold text-white mb-1">
-                    Bachelor of Science in Computer Science
-                  </h4>
-                  <div className="flex items-center gap-2 text-primary-400 mb-2">
-                    <Building className="h-4 w-4" />
-                    <span className="font-medium">University Name</span>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="flex items-center gap-4 mb-4 text-sm text-gray-400">
-                <div className="flex items-center gap-1">
-                  <Calendar className="h-4 w-4" />
-                  <span>2015 - 2019</span>
-                </div>
-                <div className="flex items-center gap-1">
-                  <MapPin className="h-4 w-4" />
-                  <span>City, State</span>
-                </div>
-              </div>
-              
-              <p className="text-gray-300 leading-relaxed">
-                Graduated with honors. Focused on web development, algorithms, and software engineering. 
-                Completed capstone project on interactive 3D web applications.
-              </p>
-            </motion.div>
-          </div>
+          
         </motion.div>
       </div>
     </section>

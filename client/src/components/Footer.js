@@ -44,7 +44,7 @@ const Footer = () => {
               <motion.a
                 whileHover={{ scale: 1.1, y: -2 }}
                 whileTap={{ scale: 0.9 }}
-                href="https://github.com/yourusername"
+                href="https://github.com/alphakyla"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-primary-400 transition-colors duration-300"
@@ -56,7 +56,7 @@ const Footer = () => {
               <motion.a
                 whileHover={{ scale: 1.1, y: -2 }}
                 whileTap={{ scale: 0.9 }}
-                href="https://linkedin.com/in/yourusername"
+                href="https://linkedin.com/in/alphakyla-bangachon"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-primary-400 transition-colors duration-300"
@@ -68,7 +68,7 @@ const Footer = () => {
               <motion.a
                 whileHover={{ scale: 1.1, y: -2 }}
                 whileTap={{ scale: 0.9 }}
-                href="https://twitter.com/yourusername"
+                href="https://twitter.com/alphakyla"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-primary-400 transition-colors duration-300"
@@ -113,9 +113,9 @@ const Footer = () => {
           >
             <h3 className="text-lg font-semibold text-white">Contact Info</h3>
             <div className="space-y-2 text-gray-400">
-              <p>your.email@example.com</p>
-              <p>+1 (555) 123-4567</p>
-              <p>San Francisco, CA</p>
+              <p>alphakyla.bangachon@example.com</p>
+              <p>+63 912 345 6789</p>
+              <p>Baguio City, Philippines</p>
             </div>
           </motion.div>
         </div>
@@ -129,7 +129,7 @@ const Footer = () => {
           className="border-t border-dark-700 mt-8 pt-8 text-center"
         >
           <p className="text-gray-400">
-            © {currentYear} Your Name. Made with{' '}
+            © {currentYear} Alpha Kyla Bangachon. Made with{' '}
             <Heart className="inline h-4 w-4 text-red-500" />{' '}
             using React, Three.js, and Tailwind CSS.
           </p>

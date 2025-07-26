@@ -65,8 +65,18 @@ const Hero = () => {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="text-5xl md:text-7xl font-bold"
           >
-            <span className="gradient-text">Your Name</span>
+            <span className="gradient-text">Alpha Kyla Bangachon</span>
           </motion.h1>
+
+          {/* Nickname */}
+          <motion.h2
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.5 }}
+            className="text-xl md:text-2xl text-primary-400 font-medium"
+          >
+            "Kyla"
+          </motion.h2>
 
           {/* Title */}
           <motion.h2
@@ -75,7 +85,7 @@ const Hero = () => {
             transition={{ delay: 0.6 }}
             className="text-2xl md:text-3xl text-gray-300 font-medium"
           >
-            Full Stack Developer
+            BSIT Web Technology Student
           </motion.h2>
 
           {/* Description */}
@@ -85,8 +95,9 @@ const Hero = () => {
             transition={{ delay: 0.8 }}
             className="text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed"
           >
-            I create immersive digital experiences with cutting-edge technologies. 
-            Specializing in React, Three.js, and modern web development.
+            Passionate web technology student at University of the Cordilleras, 
+            currently interning as a Developer at Department of Agriculture. 
+            Specializing in modern web development and creating innovative digital solutions.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -123,27 +134,27 @@ const Hero = () => {
             transition={{ delay: 1.2 }}
             className="flex justify-center space-x-6 pt-8"
           >
-            <motion.a
-              whileHover={{ scale: 1.1, y: -2 }}
-              whileTap={{ scale: 0.9 }}
-              href="https://github.com/yourusername"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-primary-400 transition-colors duration-300"
-            >
-              <Github className="h-6 w-6" />
-            </motion.a>
-            
-            <motion.a
-              whileHover={{ scale: 1.1, y: -2 }}
-              whileTap={{ scale: 0.9 }}
-              href="https://linkedin.com/in/yourusername"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-primary-400 transition-colors duration-300"
-            >
-              <Linkedin className="h-6 w-6" />
-            </motion.a>
+                         <motion.a
+               whileHover={{ scale: 1.1, y: -2 }}
+               whileTap={{ scale: 0.9 }}
+               href="https://github.com/alphakyla"
+               target="_blank"
+               rel="noopener noreferrer"
+               className="text-gray-400 hover:text-primary-400 transition-colors duration-300"
+             >
+               <Github className="h-6 w-6" />
+             </motion.a>
+             
+             <motion.a
+               whileHover={{ scale: 1.1, y: -2 }}
+               whileTap={{ scale: 0.9 }}
+               href="https://linkedin.com/in/alphakyla-bangachon"
+               target="_blank"
+               rel="noopener noreferrer"
+               className="text-gray-400 hover:text-primary-400 transition-colors duration-300"
+             >
+               <Linkedin className="h-6 w-6" />
+             </motion.a>
           </motion.div>
         </motion.div>
       </div>

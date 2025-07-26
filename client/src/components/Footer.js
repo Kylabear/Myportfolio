@@ -44,7 +44,7 @@ const Footer = () => {
               <motion.a
                 whileHover={{ scale: 1.1, y: -2 }}
                 whileTap={{ scale: 0.9 }}
-                href="https://github.com/alphakyla"
+                href="https://github.com/Kylabear"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-primary-400 transition-colors duration-300"
@@ -56,7 +56,7 @@ const Footer = () => {
               <motion.a
                 whileHover={{ scale: 1.1, y: -2 }}
                 whileTap={{ scale: 0.9 }}
-                href="https://linkedin.com/in/alphakyla-bangachon"
+                href="https://www.linkedin.com/in/kylabangachon-292953256/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-primary-400 transition-colors duration-300"

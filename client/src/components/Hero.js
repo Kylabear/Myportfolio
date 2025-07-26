@@ -117,14 +117,16 @@ const Hero = () => {
               <span>Get In Touch</span>
             </motion.button>
             
-            <motion.button
+            <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              href="/docs/cv.ky.pdf"
+              download
               className="btn-secondary flex items-center space-x-2"
             >
               <Download className="h-5 w-5" />
               <span>Download CV</span>
-            </motion.button>
+            </motion.a>
           </motion.div>
 
           {/* Social Links */}
@@ -134,27 +136,27 @@ const Hero = () => {
             transition={{ delay: 1.2 }}
             className="flex justify-center space-x-6 pt-8"
           >
-                         <motion.a
-               whileHover={{ scale: 1.1, y: -2 }}
-               whileTap={{ scale: 0.9 }}
-               href="https://github.com/alphakyla"
-               target="_blank"
-               rel="noopener noreferrer"
-               className="text-gray-400 hover:text-primary-400 transition-colors duration-300"
-             >
-               <Github className="h-6 w-6" />
-             </motion.a>
-             
-             <motion.a
-               whileHover={{ scale: 1.1, y: -2 }}
-               whileTap={{ scale: 0.9 }}
-               href="https://linkedin.com/in/alphakyla-bangachon"
-               target="_blank"
-               rel="noopener noreferrer"
-               className="text-gray-400 hover:text-primary-400 transition-colors duration-300"
-             >
-               <Linkedin className="h-6 w-6" />
-             </motion.a>
+            <motion.a
+              whileHover={{ scale: 1.1, y: -2 }}
+              whileTap={{ scale: 0.9 }}
+              href="https://github.com/Kylabear"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-primary-400 transition-colors duration-300"
+            >
+              <Github className="h-6 w-6" />
+            </motion.a>
+            
+            <motion.a
+              whileHover={{ scale: 1.1, y: -2 }}
+              whileTap={{ scale: 0.9 }}
+              href="https://www.linkedin.com/in/kylabangachon-292953256/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-primary-400 transition-colors duration-300"
+            >
+              <Linkedin className="h-6 w-6" />
+            </motion.a>
           </motion.div>
         </motion.div>
       </div>

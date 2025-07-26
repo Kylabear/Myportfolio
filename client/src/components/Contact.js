@@ -35,19 +35,19 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'alphakyla.bangachon@example.com',
-      link: 'mailto:alphakyla.bangachon@example.com'
+      value: 'alphabangachon@gmail.com',
+      link: 'mailto:alphabangachon@gmail.com'
     },
     {
       icon: Phone,
       title: 'Phone',
-      value: '+63 912 345 6789',
-      link: 'tel:+639123456789'
+      value: '+63 968 665 4565',
+      link: 'tel:+639686654565'
     },
     {
       icon: MapPin,
-      title: 'Location',
-      value: 'Baguio City, Philippines',
+      title: 'Address',
+      value: '12B, Alfonso Tabora, Baguio City',
       link: null
     }
   ];
@@ -56,13 +56,13 @@ const Contact = () => {
     {
       icon: Github,
       name: 'GitHub',
-      url: 'https://github.com/alphakyla',
+      url: 'https://github.com/Kylabear',
       color: 'hover:text-gray-400'
     },
     {
       icon: Linkedin,
       name: 'LinkedIn',
-      url: 'https://linkedin.com/in/alphakyla-bangachon',
+      url: 'https://www.linkedin.com/in/kylabangachon-292953256/',
       color: 'hover:text-blue-400'
     },
     {

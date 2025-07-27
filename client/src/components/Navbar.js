@@ -34,9 +34,10 @@ const Navbar = () => {
     <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        scrolled ? 'bg-dark-900/90 backdrop-blur-md border-b border-dark-700' : 'bg-transparent'
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
+        scrolled ? 'bg-dark-900/90 backdrop-blur-md border-b border-dark-700' : 'bg-dark-900'
       }`}
+      style={{ height: '4.5rem' }} // Set a fixed height for navbar
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
